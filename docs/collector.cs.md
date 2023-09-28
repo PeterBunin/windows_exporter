@@ -21,7 +21,17 @@ Name | Description | Type | Labels
 `windows_cs_hostname` | Labeled system hostname information | gauge | `hostname`, `domain`, `fqdn`
 
 ### Example metric
-_This collector does not yet have explained examples, we would appreciate your help adding them!_
+# HELP windows_cs_logical_processors ComputerSystem.NumberOfLogicalProcessors
+# TYPE windows_cs_logical_processors gauge
+windows_cs_logical_processors 2
+
+# HELP windows_cs_physical_memory_bytes ComputerSystem.TotalPhysicalMemory
+# TYPE windows_cs_physical_memory_bytes gauge
+windows_cs_physical_memory_bytes 2.14642688e+09
+
+# HELP windows_cs_hostname Labeled system hostname information as provided by ComputerSystem.DNSHostName and ComputerSystem.Domain
+# TYPE windows_cs_hostname gauge
+windows_cs_hostnamedomainfqdnWIN-6FGUM2OBEGQhostnameWIN-6FGUM2OBEGQ 1
 
 ## Useful queries
 _This collector does not yet have any useful queries added, we would appreciate your help adding them!_
