@@ -22,9 +22,9 @@ Name | Description | Type | Labels
 
 ### Example metric
 
-windows_cs_logical_processors 2
-windows_cs_physical_memory_bytes 2.14642688e+09
-windows_cs_hostnamedomainfqdnWIN-6FGUM2OBEGQhostnameWIN-6FGUM2OBEGQ 1
+windows_cs_logical_processors 2  
+windows_cs_physical_memory_bytes 2.14642688e+09  
+windows_cs_hostname{domain="",fqdn="WIN-6FGUM2OBEGQ",hostname="WIN-6FGUM2OBEGQ"} 1
 
 ## Useful queries
 _This collector does not yet have any useful queries added, we would appreciate your help adding them!_
